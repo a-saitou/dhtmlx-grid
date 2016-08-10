@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  encoding: utf8
+  database: dd5vjd0nahv8vm
+  port: 5432
+  username: yroqzgkggqaacz
+  password: rIjMgI1N8bSHhrR4RiD1Bgak6R
+
